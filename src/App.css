@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+@keyframes jump {
+  0% {
+    top: 327px;
+  }
+  50% {
+    top: 127px;
+  }
+  100% {
+    top: 327px;
+  }
+}
+
+.jump {
+  animation-name: jump;
+  animation-duration: 0.7s;
+}
